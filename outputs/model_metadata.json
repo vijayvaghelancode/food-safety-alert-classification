@@ -1,0 +1,27 @@
+{
+  "final_model": "LightGBM",
+  "features": [
+    "food",
+    "origin_country",
+    "destination_country",
+    "year",
+    "month"
+  ],
+  "classes": [
+    "Allergens",
+    "Food additives",
+    "Foreign bodies",
+    "GMO / unauthorised composition",
+    "Heavy metals",
+    "Irradiation",
+    "Labelling / regulatory non-compliance",
+    "Microbiological contamination",
+    "Mycotoxins",
+    "Other",
+    "Packaging / chemical migration",
+    "Pesticide residues",
+    "Veterinary drug residues"
+  ],
+  "test_accuracy": 0.8528295921593424,
+  "test_macro_f1": 0.864723991652412
+}
